@@ -26,12 +26,14 @@
 </template>
 
 <script>
+
     export default {
         data(){
         return {
           post:{}
         }
     },
+    
     methods: {
       addPost(){
         let uri = 'http://vuelaravelcrud.test/api/post/create';
